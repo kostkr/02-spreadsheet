@@ -23,6 +23,8 @@ Istniejące formuły:
 - `DIV` - dzielenie całkowite parametrów,
 - `MOD` - reszta z dzielenia parametrów.
 
+Na ocenę BDB: formołu, oraz cały kod obsługujący operacje należy zawrzeć w jednym enumie. W całym pozostałym kodzie nie powinno być iterowania w jakikolwiek sposób po tym enumie.
+
 Arkusz nie będzie zawierał referencji cyklicznych (np komórka `A1` odwołuje się do `B2`, a `B2` znów do `A1`).
 
 Przykład:
